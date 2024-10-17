@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 60vh;
+    height: 50vh;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 0 0 10px;
+}
+
+.container .header{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    width: 100%;
+}
+
+.first p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.second{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 10px 0px;
+}
+
+.second button{
+    width: 10%;
+    padding: 5px;
+    background-color: cyan;
+    border-radius: 5px;
+}
+.third{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.third input{
+    width: 20%;
+    height: 50%;
+}
+
+.fourth{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    padding: 10px 0px;
+}
+
+.fourth button{
+    width: 20%;
+    padding: 5px;
+    background-color: cyan;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
